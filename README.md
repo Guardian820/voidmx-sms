@@ -1,7 +1,12 @@
 VoidMX SMS
 ==========
 
-Platform sends SMS with TM4B
+Platform sends SMS with TM4B  
+
+Demo
+----
+
+http://yann.voidmx.net/sms | user: demo, pass: demo  
 
 Installation
 ------------
