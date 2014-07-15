@@ -1,0 +1,153 @@
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: #FFF;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+* {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2696CA;
+}
+
+a:hover {
+    border-bottom:1px dotted;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-top: 1px dotted #797979;
+}
+
+#content {
+    width: 520px;
+    position: relative;
+    margin: auto;
+}
+
+.flash {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    margin-bottom: 3px;
+}
+
+.info {
+    background-color: #C2DBFF;
+    border: 1px solid #4D94FF;
+    color: #1768E2;
+}
+
+.critical {
+    background-color: #FFC2C5;
+    border: 1px solid #FF4D51;
+    color: #E2171B;
+}
+
+.warning {
+    background-color: #FFEAC2;
+    border: 1px solid #FFAB34;
+    color: #BA7100;
+}
+
+.success {
+    background-color: #CAFFC2;
+    border: 1px solid #2FD825;
+    color: #0DA300;
+}
+
+.flash h3 {
+    margin: 0;
+}
+
+/** HEADER **/
+
+header {
+    margin-top: 10px;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-shadow: 0 1px 6px #000000;
+}
+
+/** MENU **/
+
+menu {
+    background-color: #EBEBEB;
+    border: 1px solid #BFBFBF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6px 0 6px 10px;
+    margin: 3px 0 3px 0;
+}
+
+/** SECTION **/
+
+section {
+    background-color: #EBEBEB;
+    border: 1px solid #BFBFBF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px 0 3px 0;
+}
+
+section h3 {
+    margin: 5px;
+    color: #000000;
+}
+
+section i {
+    color: #777777
+}
+
+section input {
+    border: 1px solid #BFBFBF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+section input[type="submit"] {
+    background-color: #FFFFFF;
+}
+
+section textarea {
+    width: 500px;
+    border: 1px solid #BFBFBF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.list td {
+    border: 1px solid #BFBFBF;
+}
+
+.count {
+    margin-left: 5px;
+    font-style: italic;
+    color: #777777;
+}
+
+/** FOOTER **/
+
+footer {
+    width: 100%;
+    margin: 3px 0 20px 0;
+}
+
+footer .copyright {
+    color: #797979;
+}
